@@ -22,7 +22,6 @@ export default function Testimonial() {
                     text="Estaba presentando dolor por las mañanas y después de las sesiones con Juan me he sentido mucho mejor."
                     name="Paciente"
                 />
-
             </div>
 
         </div>
