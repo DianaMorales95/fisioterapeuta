@@ -35,7 +35,6 @@ export default function Home() {
         statusMessage="Normalmente respondo en unos minutos"
         allowClickAway={true}
         placeholder="Escribe un mensaje..."
-        
       />
     </main>
     </>
