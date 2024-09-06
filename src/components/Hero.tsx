@@ -14,7 +14,7 @@ export default function Hero() {
 
     return (
         // <div className="w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 ">
-        <section className=" bg-[url('/assets/banner_5.png')] bg-no-repeat bg-cover  bg-center w-full md:h-[calc(100vh-140px)] lg:h-[calc(100vh-100px)] flex items-end ">
+        <section className="bg-[url('/assets/banner_5.png')] bg-no-repeat bg-cover  bg-center w-full md:h-[calc(100vh-140px)] lg:h-[calc(100vh-100px)] flex items-end ">
 
             <div className="container md:flex mx-auto items-center justify-center ">
                 <div className="max-w-2xl mx-auto md:p-0 p-5 ">
@@ -23,7 +23,7 @@ export default function Hero() {
                         className="text-dark-blue md:text-5xl text-3xl font-bold text-center md:text-left">Juan Antonio Cajero Olea</h1>
                     <p
                         data-aos="fade-right"
-                        className="italic md:text-2xl text-xl font-bold mt-2 text-center md:text-left">Especialista en Rehabilitación y Medicina Física </p>
+                        className="italic md:text-2xl text-xl font-bold mt-2 text-center md:text-left text-black">Especialista en Rehabilitación y Medicina Física </p>
                     <p
                         data-aos="fade-up"
                         className="md:text-2xl text-lg font-bold mt-10 text-dark-blue text-center md:text-left">

@@ -4,7 +4,7 @@ import CardService from "./CardService"
 
 export default function Services() {
     return (
-        <div className="flex justify-center md:py-4 py-10 mx-auto md:p-0  ">
+        <div className="flex justify-center md:py-4 py-10 mx-auto md:p-0  text-black">
             <div className="max-w-7xl p-5">
                 <h1
                     data-aos="fade-down"

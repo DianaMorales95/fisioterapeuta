@@ -9,6 +9,7 @@ export default function CardService({ title, description, image }: CardServicePr
     return (
         <div
             data-aos="fade-up"
+            className="text-black"
         >
             <Image
                 alt=""

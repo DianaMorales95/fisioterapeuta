@@ -5,7 +5,7 @@ export default function Testimonial() {
         <div className="max-w-7xl md:py-6 mx-auto p-5 ">
             <h1
                 data-aos="fade-down"
-                className="md:text-4xl text-2xl font-bold md:mt-10">LO QUE <span className="text-blue-light">DICEN</span> MIS PACIENTES</h1>
+                className="md:text-4xl text-2xl font-bold md:mt-10 text-black">LO QUE <span className="text-blue-light">DICEN</span> MIS PACIENTES</h1>
 
             <div
                 data-aos="fade-up"

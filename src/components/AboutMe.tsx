@@ -3,7 +3,7 @@ import ButtonWhatsApp from "./ButtonWhatsApp";
 
 export default function AboutMe() {
     return (
-        <div className="md:my-6 my-8 mx-auto p-5">
+        <div className="md:my-6 my-8 mx-auto p-5 text-black">
             <div className="max-w-7xl md:flex justify-center">
                 <div
                     data-aos="fade-right"

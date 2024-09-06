@@ -22,7 +22,7 @@ export default function Gallery() {
         <div className="md:my-10 my-8 mx-auto p-5">
             <h1
                 data-aos="fade-down"
-                className="md:text-4xl text-2xl font-bold">FISIOTERAPIA EN <span className="text-blue-light">ACCIÓN</span></h1>
+                className="md:text-4xl text-2xl font-bold text-black">FISIOTERAPIA EN <span className="text-blue-light">ACCIÓN</span></h1>
             <div
                 data-aos="fade-up"
                 className="max-w-7xl md:flex justify-center">
