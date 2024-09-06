@@ -9,6 +9,8 @@ import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Footer from "../components/Footer";
 import BannerCTA from "../components/BannerCTA";
 import Testimonial from "../components/Testimonial";
+import Gallery from "../components/Gallery";
+import Counter from "../components/Counter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,20 +19,24 @@ export default function Home() {
     <>
     <Promise />
     <main
-      className={`flex min-h-screen flex-col items-center justify-between  ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between overflow-x-hidden ${inter.className}`}
     >
       <Hero />
       <Benefits />
       <AboutMe />
+      <Counter />
       <Services />
+      
       <BannerCTA />
+
+      <Gallery />
       <Testimonial />
       <Footer />
       <FloatingWhatsApp 
-        phoneNumber="522221737098"
+        phoneNumber="523330061146"
         accountName="Juan Antonio Cajero Olea"
-        avatar="https://www.w3schools.com/w3images/avatar6.png"
-        chatMessage="Hola, ¿en qué puedo ayudarte?"
+        avatar="/assets/avatar.png"
+        chatMessage="¡Hola!, ¿en qué puedo ayudarte?"
         darkMode={false}
         statusMessage="Normalmente respondo en unos minutos"
         allowClickAway={true}

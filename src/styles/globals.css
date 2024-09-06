@@ -25,3 +25,40 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-dark-blue{
+  color:#071f43;
+}
+.text-yellow{
+  color: #f2c814;
+}
+.text-blue-light{
+  color: #9ad0ec;
+}
+.bg-blue-light{
+  background-color: #9ad0ec;
+}
+
+/* Estilo de animación de contorno respirando */
+@keyframes breathe {
+  0% {
+    box-shadow: 0 0 0 0 rgba(242, 200, 20, 0.7); /* El color de fondo del botón */
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(242, 200, 20, 0); /* Aumenta el tamaño y difumina */
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(242, 200, 20, 0); /* Se restaura al tamaño original */
+  }
+}
+
+/* Animación de latido para el texto */
+@keyframes beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2); /* Hace que el texto crezca ligeramente */
+  }
+}
+

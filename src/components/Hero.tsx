@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Image from 'next/image';
+import ButtonWhatsApp from './ButtonWhatsApp';
 
 export default function Hero() {
 
@@ -12,41 +13,46 @@ export default function Hero() {
     }, []);
 
     return (
+        // <div className="w-full bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 ">
+        <section className=" bg-[url('/assets/banner_5.png')] bg-no-repeat bg-cover  bg-center w-full md:h-[calc(100vh-140px)] lg:h-[calc(100vh-100px)] flex items-end ">
 
-        <section className="w-full md:h-[calc(100vh-140px)] lg:h-[calc(100vh-100px)] bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 flex items-center justify-center">
-            <div className="container md:flex items-center justify-center p-5">
-                <div className="max-w-2xl">
+            <div className="container md:flex mx-auto items-center justify-center ">
+                <div className="max-w-2xl mx-auto md:p-0 p-5 ">
                     <h1
                         data-aos="fade-right"
-                        className="text-white md:text-5xl text-3xl font-bold text-center md:text-left">Juan Antonio Cajero Olea</h1>
+                        className="text-dark-blue md:text-5xl text-3xl font-bold text-center md:text-left">Juan Antonio Cajero Olea</h1>
                     <p
                         data-aos="fade-right"
-                        className="italic md:text-2xl text-xl font-bold mt-2 text-center md:text-left">Fisioterapeuta Especialista en rehabilitación en trauma y ortopedia y neurórehabilitacion. </p>
+                        className="italic md:text-2xl text-xl font-bold mt-2 text-center md:text-left">Especialista en Rehabilitación y Medicina Física </p>
                     <p
                         data-aos="fade-up"
-                        className="md:text-2xl text-lg font-bold mt-10 text-white text-center md:text-left">
+                        className="md:text-2xl text-lg font-bold mt-10 text-dark-blue text-center md:text-left">
                         Transforma tu salud con fisioterapia personalizada. <br />
-                        ¡Agenda tu sesión inicial y comienza tu recuperación hoy mismo!
+                        ¡Agenda tu sesión inicial y comienza tu recuperación!
                     </p>
-                    <button
+                    {/* <button
                         data-aos="fade-up"
-                        className="rounded-xl  md:text-xl text-lg font-bold p-3 bg-[#f2c814] mt-10 mx-auto block md:inline "> Recupera tu bienestar con un experto. ¡Reserva ahora!</button>
+                        className="hover:bg-yellow-300 rounded-xl mt-10 text-lg font-bold md:p-3 bg-[#f2c814] md:mt-10 mx-auto block md:inline relative animate-blink-custom"
+                    >
+                        <span className="animate-beat-custom">Recupera tu bienestar con un experto. ¡Reserva ahora!</span>
+                    </button> */}
+                    <ButtonWhatsApp text="Recupera tu bienestar con un experto. ¡Reserva ahora!" />
                 </div>
 
-                <div className="mt-14 mx-auto ">
-                    {/* <Image
+                <div className="mx-auto ">
+                    <Image
                         data-aos="fade-left"
-                        src="/assets/fisio3.png"
+                        src="/assets/fisio_juan_2.png"
                         alt="doctor"
                         width={600}
                         height={600}
-                        className="md:w-[600px] w-[300px] mx-auto"
-                    /> */}
+                        className="md:w-[480px] w-[350px] mx-auto h-auto"
+                    />
                 </div>
             </div>
 
         </section>
-
+        // </div>
     );
 };
 

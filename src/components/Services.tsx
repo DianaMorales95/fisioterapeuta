@@ -8,7 +8,7 @@ export default function Services() {
             <div className="max-w-7xl p-5">
                 <h1
                     data-aos="fade-down"
-                    className="md:text-4xl text-2xl font-bold">FISIOTERAPIA <span className="text-blue-500">ESPECIALIZADA</span> PARA CADA NECESIDAD</h1>
+                    className="md:text-4xl text-2xl font-bold">FISIOTERAPIA <span className="text-blue-light">ESPECIALIZADA</span> PARA CADA NECESIDAD</h1>
                 <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 md:mt-10 mt-5">
                     <CardService
 
