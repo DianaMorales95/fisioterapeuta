@@ -12,8 +12,8 @@ export default function AboutMe() {
                     <Image
                         src="/assets/about_me.png"
                         alt="fisioterapeuta"
-                        width={480}
-                        height={600}
+                        width={500}
+                        height={650}
                         className="rounded-xl mx-auto md:mt-0 -mt-10"
                     />
 
@@ -32,17 +32,27 @@ export default function AboutMe() {
                         <li className="font-bold  list-disc">Licenciatura Terapia Física</li>
                         <li className="italic text-gray-600">2017-2021, Universidad de Guadalajara</li>
                     </ul>
-                    <h2 className="font-bold text-xl mt-3 mb-2">Diplomados y cursos</h2>
+                    <h2 className="font-bold text-xl mt-3 mb-2">Diplomados</h2>
                     <hr className="w-[120px] h-1 mb-2 bg-blue-light" />
                     <ul className="ml-5">
+                        <li className="font-bold list-disc">Diplomado en Fisioterapia Neurologica </li>
+                        <li className="italic text-gray-600">2023-2024</li>
+                        <li className="font-bold list-disc">Diplomado en Fisioterapia Deportiva  </li>
+                        <li className="italic text-gray-600">2022-2023</li>
                         <li className="font-bold list-disc ">Diplomado en Fisioterapia en Trauma y Ortopedia</li>
                         <li className="italic text-gray-600">2021-2022</li>
-                        <li className="font-bold  list-disc">Curso Vendaje Neuromuscular Avanzado</li>
-                        <li className="italic text-gray-600">2021-2022</li>
+                    </ul>
+
+                    <h2 className="font-bold text-xl mt-3 mb-2">Cursos</h2>
+                    <hr className="w-[120px] h-1 mb-2 bg-blue-light" />
+                    <ul className="ml-5">
                         <li className="font-bold  list-disc">Curso Punción Seca y Electropunción</li>
                         <li className="italic text-gray-600">2023</li>
                         <li className="font-bold  list-disc">Curso Osteopatía Estructural en Disfunciones de Movimiento</li>
                         <li className="italic text-gray-600">2023</li>
+                        <li className="font-bold  list-disc">Curso Vendaje Neuromuscular Avanzado</li>
+                        <li className="italic text-gray-600">2021-2022</li>
+
                     </ul>
 
 
