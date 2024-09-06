@@ -11,7 +11,7 @@ export default function Footer() {
                         href="https://www.facebook.com/juanantonio.cajeroolea.1?mibextid=LQQJ4d"
                         target="_blank"
                         type="button"
-                        className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
+                        className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1"
                     >
                         <span className="[&>svg]:h-5 [&>svg]:w-5">
                             <svg
@@ -29,7 +29,7 @@ export default function Footer() {
                         href="https://www.instagram.com/rocko_fisiart/?utm_source=ig_web_button_share_sheet"
                         target="_blank"
                         type="button"
-                        className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1 dark:bg-neutral-700 dark:text-white"
+                        className="rounded-full bg-white p-3 uppercase leading-normal text-surface shadow-dark-3 shadow-black/30 transition duration-150 ease-in-out hover:shadow-dark-1 focus:shadow-dark-1 focus:outline-none focus:ring-0 active:shadow-1"
                     >
                         <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
                             <svg
