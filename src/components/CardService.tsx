@@ -21,7 +21,7 @@ export default function CardService({ title, description, image }: CardServicePr
 
             <div className="mt-4">
                 <p className="font-medium text-2xl "> {title}</p>
-                <hr className="w-96 h-1 bg-blue-light mt-4 mb-5" />
+                <hr className="md:w-96 h-1 bg-blue-light mt-4 mb-5" />
                 <p className="">{description}</p>
             </div>
         </div>
