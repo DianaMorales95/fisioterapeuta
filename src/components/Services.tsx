@@ -13,19 +13,19 @@ export default function Services() {
                     <CardService
 
                         title="Fisioterapia Deportiva"
-                        description="Prevención, evaluación, tratamiento y rehabilitación de lesiones y dolencias relacionadas con el deporte y la actividad física."
+                        description="Prevención, evaluación, tratamiento y rehabilitación de lesiones y afecciones relacionadas con el deporte y la actividad física."
                         image="/assets/deportiva.png"
                     />
 
                     <CardService
                         title="Fisioterapia Traumatológica"
-                        description="Tratamiento y rehabilitación de lesiones y traumas musculoesqueléticos, como fracturas, prótesis, esguinces, luxaciones entre otros."
+                        description="Tratamiento y rehabilitación de lesiones y traumas musculoesqueléticos, como; fracturas, prótesis, esguinces, luxaciones entre otros."
                         image="/assets/traumatologica.png"
                     />
 
                     <CardService
                         title="Fisioterapia Neurológica"
-                        description="Tratamiento y rehabilitación de personas con trastornos y lesiones del sistema nervioso central y periférico como Accidente cerebrovascular (ACV), Traumatismo craneoencefálico (TCE), Enfermedad de Parkinson, Esclerosis múltiple, Parálisis cerebral, Lesiones de la médula espinal."
+                        description="Tratamiento y rehabilitación de personas con trastornos y lesiones del sistema nervioso central y periférico como; accidente cerebrovascular (ACV), Traumatismo craneoencefálico (TCE), Enfermedad de Parkinson, Esclerosis múltiple, Parálisis cerebral, Lesiones de la médula espinal."
                         image="/assets/neurologica.png"
                     />
 
